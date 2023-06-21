@@ -50,7 +50,8 @@ SELECT CONCAT(apellido, ', ', nombre) AS 'Nombre completo',
 	fechaNacimiento AS 'Fecha de nacimiento'
 FROM Clientes
 
--- Devolver nombre, costo y precio,
+
+-- E3. Devolver nombre, costo y precio,
 -- costo y ganancia con 20% de descuento
 -- costo y ganancia con 10% de descuento
 SELECT costo AS costo,
